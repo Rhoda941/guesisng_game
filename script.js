@@ -44,7 +44,7 @@ againbtn.addEventListener('click',function(){
     scoreBox.textContent = score;
     victoryMessage.textContent= 'Start guessing...';
     secretNumber = Math.trunc((Math.random()*20)+1);
-    document.querySelector('body').style.backgroundColor ='#222';
+    document.querySelector('body').style.backgroundColor ='darksalmon';
 }
 )
 

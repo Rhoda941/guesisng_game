@@ -4,13 +4,14 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  max-width: 100%;
+  max-height: 100vh;
 }
 
 html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
-
 body {
   font-family: 'Press Start 2P', sans-serif;
   color: #eee;
@@ -116,4 +117,36 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+@media screen  and (max-width: 690px){
+ body{
+  background-color: darksalmon;
+    font-size:100%;
+
+ } 
+ .between{
+  position: fixed;
+font-size: 12px;
+font-weight: bold;
+ }
+ .btn {
+
+    font-size: 1.2rem;
+     padding: 1rem 1rem;
+    justify-items:center ;
+ 
+ }
+ .message,.label-score,.label-highscore{
+  font-size: 75%;
+  margin-bottom: 30px;
+ margin-left: 30px;
+
+ }
+ .guess{
+  width: 80%;
+ }
+ .number{
+  width:30% ;
+ 
+ }
 }
